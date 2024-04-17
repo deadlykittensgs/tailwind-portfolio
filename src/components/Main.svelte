@@ -3,18 +3,21 @@
 
     let steps = [
         {
+            href: "https://www.google.com/",
             name: "Smoljames Store",
             icon: "fa-solid fa-cart-shopping",
             description:
                 "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
         },
         {
+            href: "https://todoappryanm.netlify.app/",
             name: "Utlimate Todos",
             icon: "fa-solid fa-list-check",
             description:
                 "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
         },
         {
+            href: "https://dailynasa.netlify.app/",
             name: "Pokédex",
             icon: "fa-solid fa-diagram-project",
             description:
