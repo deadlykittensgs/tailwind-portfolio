@@ -3,8 +3,8 @@
 
     let steps = [
         {
-            href: "https://www.google.com/",
-            name: "Smoljames Store",
+            href: "https://workoutpage.netlify.app/",
+            name: "Workout page",
             icon: "fa-solid fa-cart-shopping",
             description:
                 "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
@@ -18,7 +18,7 @@
         },
         {
             href: "https://dailynasa.netlify.app/",
-            name: "Pokédex",
+            name: "NASA API",
             icon: "fa-solid fa-diagram-project",
             description:
                 "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
