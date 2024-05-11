@@ -87,7 +87,8 @@
         </a>
     </div>
     <div class="relative shadow-2xl grid place-items-center">
-        <img src={"static/images/ryan m-fotor-bg-remover-20240511153120.png"} alt="Profile Image" class="object-cover z-[2] max-h-[70vh]"/>
+        <img src={"/images/ryan m-fotor-bg-remover-20240511153120.png"} alt="Profile Image" 
+        class="object-cover z-[2] max-h-[70vh]"/>
     </div>
     
 </section>
