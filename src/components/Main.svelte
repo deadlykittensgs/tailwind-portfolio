@@ -37,6 +37,14 @@
             description:
                 "A blackjack Game Made form scratch using vanilla JS, HTML & css with a percentages calculator page attached to find and graph odds",
         },
+        {
+            href: "https://remarkable-druid-92d73e.netlify.app/",
+            name: "Last Project",
+            icon: "fa-solid fa-guitar",
+            description:
+                "A blackjack Game Made form scratch using vanilla JS, HTML & css with a percentages calculator page attached to find and graph odds",
+        },
+        
         
     ];
 
@@ -160,6 +168,13 @@
         </p>
     </Step>
     <Step step={steps[4]}>
+        <p>
+            This app is a <strong class="text-violet-400">Lifesaver</strong>
+            for guitarists everywhere created to answe all of the questions posted on forms daily and make learning the guitar infantry easier and available for visual learners  
+            <strong class="text-violet-400">made with vanilla JS CSS & HTML</strong>
+        </p>
+    </Step>
+    <Step step={steps[5]}>
         <p>
             This app is a <strong class="text-violet-400">Lifesaver</strong>
             for guitarists everywhere created to answe all of the questions posted on forms daily and make learning the guitar infantry easier and available for visual learners  
