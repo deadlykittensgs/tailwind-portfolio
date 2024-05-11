@@ -23,6 +23,21 @@
             description:
                 "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
         },
+        {
+            href: "https://sparkly-sfogliatella-521740.netlify.app",
+            name: "BlackJack Game",
+            icon: "fa-solid fa-dice",
+            description:
+                "A blackjack Game Made form scratch using vanilla JS, HTML & css with a percentages calculator page attached to find and graph odds",
+        },
+        {
+            href: "https://remarkable-druid-92d73e.netlify.app/",
+            name: "Guitar Problem Solver",
+            icon: "fa-solid fa-guitar",
+            description:
+                "A blackjack Game Made form scratch using vanilla JS, HTML & css with a percentages calculator page attached to find and graph odds",
+        },
+        
     ];
 
     let benefits = [
@@ -72,7 +87,7 @@
         </a>
     </div>
     <div class="relative shadow-2xl grid place-items-center">
-        <img src={"/images/IMG_1163."} alt= "Profile Image" class="object-cover z-[2] max-h-[70vh]"/>
+        <img src={"src/public/ryan m-fotor-bg-remover-20240511153120.png"} alt= "Profile Image" class="object-cover z-[2] max-h-[70vh]"/>
     </div>
 </section>
 
@@ -98,7 +113,7 @@
 <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
     <Step step={steps[0]}>
         <p>
-            Smoljames Store is a a merchanising store created with <strong
+            Swolenormus is a workout app using data from smolJames and React <strong
                 class="text-violet-400"
                 >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
             > Commerce.js is a product CMS and Stripe is used for all transaction
@@ -129,6 +144,24 @@
             consumes and caches the
             <strong class="text-violet-400">Pokémon API</strong>
             to display all Pokémon information. Gotta catch them all!
+        </p>
+    </Step>
+    <Step step={steps[3]}>
+        <p>
+            The Blackjack Game & Stats Graph <strong class="text-violet-400"
+                >SvelteKit & TailwindCSS</strong>
+            web application, hosted on
+            <strong class="text-violet-400">Netlify</strong>, that
+            consumes and caches the
+            <strong class="text-violet-400">Pokémon API</strong>
+            "A blackjack Game Made form scratch using vanilla JS, HTML & css with a percentages calculator page attached to find and graph odds"
+        </p>
+    </Step>
+    <Step step={steps[4]}>
+        <p>
+            This app is a <strong class="text-violet-400">Lifesaver</strong>
+            for guitarists everywhere created to answe all of the questions posted on forms daily and make learning the guitar infantry easier and available for visual learners  
+            <strong class="text-violet-400">made with vanilla JS CSS & HTML</strong>
         </p>
     </Step>
 </div>
