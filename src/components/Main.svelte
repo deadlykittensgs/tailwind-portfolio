@@ -7,21 +7,21 @@
             name: "Workout page",
             icon: "fa-solid fa-cart-shopping",
             description:
-                "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
+                "Workout Page",
         },
         {
             href: "https://todoappryanm.netlify.app/",
             name: "Utlimate Todos",
             icon: "fa-solid fa-list-check",
             description:
-                "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
+                "Full Stack todo app",
         },
         {
             href: "https://dailynasa.netlify.app/",
             name: "NASA API",
             icon: "fa-solid fa-diagram-project",
             description:
-                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+                "Nasa API",
         },
         {
             href: "https://sparkly-sfogliatella-521740.netlify.app",
@@ -35,14 +35,14 @@
             name: "Guitar Problem Solver",
             icon: "fa-solid fa-guitar",
             description:
-                "A blackjack Game Made form scratch using vanilla JS, HTML & css with a percentages calculator page attached to find and graph odds",
+                "Guitarist tool to learn quickly",
         },
         {
             href: "https://remarkable-druid-92d73e.netlify.app/",
             name: "Last Project",
             icon: "fa-solid fa-guitar",
             description:
-                "A blackjack Game Made form scratch using vanilla JS, HTML & css with a percentages calculator page attached to find and graph odds",
+                "TBD",
         },
         
         
@@ -56,7 +56,7 @@
                 "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
         },
         {
-            name: "a product design & UX finatic",
+            name: "a product design & UX fanatic",
             description:
                 "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
         },
@@ -82,7 +82,7 @@
         </h2>
         <p class="text-base sm:text-lg md:text-xl">
             My <span class="text-violet-400"> favorite tech</span> includes JavaScript
-            (React.js), TailwindCSS, Node.js + Express.js & PostgreSQL!
+            (React.js), TailwindCSS, Node.js + Express.js & PostgreSQL and SvelteKit!
            
         </p>
         <a
@@ -123,11 +123,10 @@
 <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
     <Step step={steps[0]}>
         <p>
-            Swolenormus is a workout app using data from smolJames and React <strong
-                class="text-violet-400"
-                >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-            > Commerce.js is a product CMS and Stripe is used for all transaction
-            handling.
+            Swolenormus is a workout app using data from one of my favorite content creators  <strong
+            class="text-violet-400">James</strong>. The app was built primarily using<strong
+                class="text-violet-400">React, SvelteKit, and TailwindCSS and is hosted on Netlify</strong
+            > It is intended to give you an ejective workout routine targeted specifically at the muscle groups you want to target.
         </p>
     </Step>
 
@@ -146,39 +145,31 @@
 
     <Step step={steps[2]}>
         <p>
-            The Pokédex is a <strong class="text-violet-400"
-                >SvelteKit & TailwindCSS</strong
-            >
-            web application, hosted on
-            <strong class="text-violet-400">Netlify</strong>, that
-            consumes and caches the
-            <strong class="text-violet-400">Pokémon API</strong>
-            to display all Pokémon information. Gotta catch them all!
+                <p>Nasa API is a  <strong class="text-violet-400"> React and TailwindCSS</strong> application that provides a 
+                framework for the data extracted form the<strong class="text-violet-400">Nasa API</strong> to be displayed clearly on 
+                on any screen size and changed daily.  
+           
         </p>
     </Step>
     <Step step={steps[3]}>
-        <p>
-            The Blackjack Game & Stats Graph <strong class="text-violet-400"
-                >SvelteKit & TailwindCSS</strong>
-            web application, hosted on
-            <strong class="text-violet-400">Netlify</strong>, that
-            consumes and caches the
-            <strong class="text-violet-400">Pokémon API</strong>
-            "A blackjack Game Made form scratch using vanilla JS, HTML & css with a percentages calculator page attached to find and graph odds"
+        <p>  
+           Blackjack is a game Made form scratch using <strong class="text-violet-400">Vanilla JS, HTML & CSS </strong> 
+            with an attached percentages calculator to run tests to graph odds of the game based on hands played
+            <p>
+        
         </p>
     </Step>
     <Step step={steps[4]}>
         <p>
             This app is a <strong class="text-violet-400">Lifesaver</strong>
-            for guitarists everywhere created to answe all of the questions posted on forms daily and make learning the guitar infantry easier and available for visual learners  
-            <strong class="text-violet-400">made with vanilla JS CSS & HTML</strong>
+            for guitarists everywhere created to answer all of the questions posted on forms 
+            daily and make learning the guitar infantry easier and available for visual learners  
+            made with <strong class="text-violet-400">Vanilla JS CSS & HTML</strong>
         </p>
     </Step>
     <Step step={steps[5]}>
         <p>
-            This app is a <strong class="text-violet-400">Lifesaver</strong>
-            for guitarists everywhere created to answe all of the questions posted on forms daily and make learning the guitar infantry easier and available for visual learners  
-            <strong class="text-violet-400">made with vanilla JS CSS & HTML</strong>
+            This app has not been created yet but will be soon
         </p>
     </Step>
 </div>
