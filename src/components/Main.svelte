@@ -24,14 +24,14 @@
                 "Nasa API",
         },
         {
-            href: "https://sparkly-sfogliatella-521740.netlify.app",
+            href: "https://sparkly-sfogliatella-521740.netlify.app/",
             name: "BlackJack Game",
             icon: "fa-solid fa-dice",
             description:
                 "A blackjack Game Made form scratch using vanilla JS, HTML & css with a percentages calculator page attached to find and graph odds",
         },
         {
-            href: "https://remarkable-druid-92d73e.netlify.app/",
+            href: "https://clinquant-toffee-6e2fb4.netlify.app/",
             name: "Guitar Problem Solver",
             icon: "fa-solid fa-guitar",
             description:
