@@ -12,7 +12,9 @@
 
   </script> 
   
-<div class="relative flex flex-col max-w-[1400px] mx-auto w-full test-sm sm:text-base min-h-screen">
+<div class="relative flex flex-col  mx-auto w-full test-sm sm:text-base min-h-screen">
+
+  <!-- max-w-[1400px] above  -->
 
   <div class={"fixed bottom-0 w-full duration-200 flex p-10 z-[10] " +
   (y > 0
