@@ -38,11 +38,11 @@
                 "Guitarist tool to learn quickly",
         },
         {
-            href: "https://remarkable-druid-92d73e.netlify.app/",
-            name: "Last Project",
-            icon: "fa-solid fa-guitar",
+            href: "https://calm-sorbet-5949f6.netlify.app/",
+            name: "Daily Weather App",
+            icon: "fa-solid fa-cloud-sun-rain",
             description:
-                "TBD",
+                "react and tailwind weather app",
         },
         
         
@@ -169,7 +169,9 @@
     </Step>
     <Step step={steps[5]}>
         <p>
-            This app has not been created yet but will be soon
+            The Daily Weather app is a simple app created to pull the daily weather information 
+            from an <strong class="text-violet-400">API</strong> and displaying it dynamical using <strong class="text-violet-400">React.js</strong> and <strong class="text-violet-400">Tailwinds</strong> as well as featuring a  <strong class="text-violet-400">location lookup feature </strong>
+            which is triggered on load
         </p>
     </Step>
 </div>
@@ -265,7 +267,7 @@ class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 re
             <tr class="border-t border-solid border-slate-200">
                 <td
                     class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                    >Progamming Ability</td
+                    >Programming Ability</td
                 >
                 <td><i class="fa-solid fa-check text-slate-500" /></td>
                 <td><i class="fa-solid fa-xmark text-slate-500" /></td>
