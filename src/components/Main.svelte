@@ -123,10 +123,10 @@
 <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
     <Step step={steps[0]}>
         <p>
-            Swolenormus is a workout app using data from one of my favorite content creators<strong
+            #StayHard is a workout app using exercise routine data from one of my favorite content creators <strong
             class="text-violet-400">James</strong>. The app was built primarily using <strong
-                class="text-violet-400"> React, SvelteKit, and TailwindCSS and is hosted on Netlify</strong
-            > It is intended to give you an ejective workout routine targeted specifically at the muscle groups you want to target.
+                class="text-violet-400"> React, SvelteKit, and TailwindCSS and is hosted on Netlify.</strong
+            > It is intended to give you an en energizing workout routine targeted specifically at the muscle groups you select.
         </p>
     </Step>
 
@@ -153,18 +153,14 @@
     </Step>
     <Step step={steps[3]}>
         <p>  
-           Blackjack is a game Made form scratch using <strong class="text-violet-400">Vanilla JS, HTML & CSS </strong> 
-            with an attached percentages calculator to run tests to graph odds of the game based on hands played
+           The Blackjack App is a game Made from scratch using <strong class="text-violet-400">Vanilla JS, HTML & CSS </strong> with the goal of demonstration DOM manipulation and storing information in the local cache
             <p>
         
         </p>
     </Step>
     <Step step={steps[4]}>
         <p>
-            This app is a <strong class="text-violet-400">Lifesaver</strong>
-            for guitarists everywhere created to answer all of the questions posted on forms 
-            daily and make learning the guitar infantry easier and available for visual learners  
-            made with <strong class="text-violet-400">Vanilla JS CSS & HTML</strong>
+            This is a vanilla JavaScript application designed to address common challenges faced by novice guitarists, such as difficulty in deciding what to play and understanding the notes on the fretboard. <strong class="text-violet-400"> The application aims to assist visual learners by dynamically illustrating patterns and shapes on the fretboard,</strong> enhancing their grasp of music theory.
         </p>
     </Step>
     <Step step={steps[5]}>
