@@ -123,9 +123,9 @@
 <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
     <Step step={steps[0]}>
         <p>
-            Swolenormus is a workout app using data from one of my favorite content creators  <strong
-            class="text-violet-400">James</strong>. The app was built primarily using<strong
-                class="text-violet-400">React, SvelteKit, and TailwindCSS and is hosted on Netlify</strong
+            Swolenormus is a workout app using data from one of my favorite content creators<strong
+            class="text-violet-400">James</strong>. The app was built primarily using <strong
+                class="text-violet-400"> React, SvelteKit, and TailwindCSS and is hosted on Netlify</strong
             > It is intended to give you an ejective workout routine targeted specifically at the muscle groups you want to target.
         </p>
     </Step>
@@ -146,7 +146,7 @@
     <Step step={steps[2]}>
         <p>
                 <p>Nasa API is a  <strong class="text-violet-400"> React and TailwindCSS</strong> application that provides a 
-                framework for the data extracted form the<strong class="text-violet-400">Nasa API</strong> to be displayed clearly on 
+                framework for the data extracted form the <strong class="text-violet-400"> Nasa API</strong> to be displayed clearly on 
                 on any screen size and changed daily.  
            
         </p>
