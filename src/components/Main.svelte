@@ -145,7 +145,7 @@
     </Step>
     <Step step={steps[3]}>
         <p>
-            Nasa API is a  <strong class="text-violet-400"> React and TailwindCSS</strong> application that provides a 
+            Nasa API is a  <strong class="text-violet-400"> React</strong> application that provides a 
             framework for the data extracted form the <strong class="text-violet-400"> Nasa API</strong> to be displayed clearly
             on any screen size and to changed daily.  
        
