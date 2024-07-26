@@ -3,6 +3,7 @@
 
     let steps = [
         {
+            git: "https://github.com/deadlykittensgs/guitarJS",
             href: "https://clinquant-toffee-6e2fb4.netlify.app/",
             name: "Guitar Problem Solver",
             icon: "fa-solid fa-guitar",
@@ -10,6 +11,7 @@
                 "Guitarist tool to learn quickly",
         },
         {
+            git: "https://github.com/deadlykittensgs/passwordGame",
             href: "https://passwordgamerm.netlify.app/",
             name: "Passwords Game",
             icon: "fa-solid fa-unlock-keyhole",
@@ -17,6 +19,7 @@
                 "Passwords Game",
         },
         {
+            git: "https://github.com/deadlykittensgs/allisasBBQ",
             href: "https://ryansbbqandbar.netlify.app/",
             name: "BBQ Restaurant",
             icon: "fa-solid fa-utensils",
@@ -24,6 +27,7 @@
                 "Nasa API",
         },
         {
+            git: "https://github.com/deadlykittensgs/Nasa",
             href: "https://dailynasa.netlify.app/",
             name: "NASA API",
             icon: "fa-solid fa-diagram-project",
@@ -31,6 +35,7 @@
                 "Nasa API",
         },
         {
+            git: "https://github.com/deadlykittensgs/react-weather-app",
             href: "https://calm-sorbet-5949f6.netlify.app/",
             name: "Daily Weather App",
             icon: "fa-solid fa-cloud-sun-rain",
@@ -38,6 +43,7 @@
                 "react and tailwind weather app",
         },
         {
+            git: "https://github.com/deadlykittensgs/swoley",
             href: "https://workoutpage.netlify.app/",
             name: "Workout Helper",
             icon: "fa-solid fa-dumbbell",
@@ -125,8 +131,8 @@
 
     <Step step={steps[1]}>
         <p>
-          Passwords Game is a <strong class="text-violet-400">React.JS</strong> application connected to a <strong class="text-violet-400">interactive firebase firestore database</strong> 
-          to allow users to add words from any device at any time and then play the game on a single phone. The game includes a timer to lock buttons after the time limit has expired and a point counter.
+          Passwords Game is a <strong class="text-violet-400">React.JS</strong> application connected to a <strong class="text-violet-400">interactive Firebase Firestore database</strong> 
+          to allow users to add words from any device at any time and then play the game on a single phone. The game includes a timer to lock buttons after the time limit has expired and a interactive score board.
         </p>
     </Step>
 
