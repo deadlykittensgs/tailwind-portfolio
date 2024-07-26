@@ -18,14 +18,14 @@
     <slot />
 
 
-    <div class="flex-1 flex justify-between">
+    <div class="flex-1 flex justify-between items-end">
        
-        <div class="cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:h-0 after:right-full after:bg-white after:w-full after:h-full after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden" >
-        <p class="z-4"> <i class="fa-solid fa-bolt"></i> Go to live &rarr;</p>
+        <div class="flex" >
+        <p class="z-4 p-1 cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:h-0 after:right-full after:bg-white after:w-full after:h-full after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden "> <i class="fa-solid fa-bolt"></i> Go to live &rarr;</p>
         </div>
        
-     <a href={step.git} target="_blank" class="cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:h-0 after:right-full after:bg-white after:w-full after:h-full after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden">
-    <p class="z-4"> <i class="fa-brands fa-github"></i> Go to git &rarr;</p>
+     <a href={step.git} target="_blank" class="  max-h-[30px] cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:h-0 after:right-full after:bg-white after:w-full after:h-full after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden">
+    <p class="z-4 p-1  cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:h-0 after:right-full after:bg-white after:w-full after:h-full after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden "> <i class="fa-brands fa-github"></i> Go to git &rarr;</p>
      </a>
     </div>
 </a>
