@@ -1,4 +1,4 @@
-Ryan Mcmahon Resume using svelte
+Ryan Mcmahon Web portfolio using svelte
 
 https://ryanmtailwindportfolio.netlify.app/
 

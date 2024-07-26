@@ -3,18 +3,25 @@
 
     let steps = [
         {
-            href: "https://workoutpage.netlify.app/",
-            name: "Workout page",
-            icon: "fa-solid fa-cart-shopping",
+            href: "https://clinquant-toffee-6e2fb4.netlify.app/",
+            name: "Guitar Problem Solver",
+            icon: "fa-solid fa-guitar",
             description:
-                "Workout Page",
+                "Guitarist tool to learn quickly",
         },
         {
-            href: "https://todoappryanm.netlify.app/",
-            name: "Utlimate Todos",
-            icon: "fa-solid fa-list-check",
+            href: "https://passwordgamerm.netlify.app/",
+            name: "Passwords Game",
+            icon: "fa-solid fa-unlock-keyhole",
             description:
-                "Full Stack todo app",
+                "Passwords Game",
+        },
+        {
+            href: "https://ryansbbqandbar.netlify.app/",
+            name: "BBQ Restaurant",
+            icon: "fa-solid fa-utensils",
+            description:
+                "Nasa API",
         },
         {
             href: "https://dailynasa.netlify.app/",
@@ -24,23 +31,16 @@
                 "Nasa API",
         },
         {
-            href: "https://sparkly-sfogliatella-521740.netlify.app/",
-            name: "BlackJack Game",
-            icon: "fa-solid fa-dice",
-            description:
-                "A blackjack Game Made form scratch using vanilla JS, HTML & css with a percentages calculator page attached to find and graph odds",
-        },
-        {
-            href: "https://clinquant-toffee-6e2fb4.netlify.app/",
-            name: "Guitar Problem Solver",
-            icon: "fa-solid fa-guitar",
-            description:
-                "Guitarist tool to learn quickly",
-        },
-        {
             href: "https://calm-sorbet-5949f6.netlify.app/",
             name: "Daily Weather App",
             icon: "fa-solid fa-cloud-sun-rain",
+            description:
+                "react and tailwind weather app",
+        },
+        {
+            href: "https://workoutpage.netlify.app/",
+            name: "Workout Helper",
+            icon: "fa-solid fa-dumbbell",
             description:
                 "react and tailwind weather app",
         },
@@ -51,17 +51,17 @@
     let benefits = [
         {
             metric: "10x",
-            name: "a self taught developer",
+            name: "A self taught developer",
             description:
                 "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
         },
         {
-            name: "a product design & UX fanatic",
+            name: "A product design & UX fanatic",
             description:
                 "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
         },
         {
-            name: "an excellent communicator",
+            name: "An excellent communicator",
             description:
                 "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
         },
@@ -82,7 +82,7 @@
         </h2>
         <p class="text-base sm:text-lg md:text-xl ">
             My <span class="text-violet-400"> favorite tech</span> includes JavaScript
-            (React.js), TailwindCSS, Node.js + Express.js & PostgreSQL and SvelteKit!
+            (React.JS), TailwindCSS, Node.JS + Express.JS!
            
         </p>
         <a
@@ -112,62 +112,54 @@
             Curious to <span class="poppins text-violet-400">see</span> my work?
         </h3>
     </div>
-    <!-- <a
-    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-    target="_blank"
-    class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
->
-    <i class="fa-regular fa-circle-play" />
-    <p>Watch the video</p>
-</a> -->
 <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
     <Step step={steps[0]}>
         <p>
-            #StayHard is a workout app using exercise routine data from one of my favorite content creators <strong
-            class="text-violet-400">James</strong>. The app was built primarily using <strong
-                class="text-violet-400"> React, SvelteKit, and TailwindCSS and is hosted on Netlify.</strong
-            > It is intended to give you an en energizing workout routine targeted specifically at the muscle groups you select.
+            Guitar Problem Solver is a <strong class="text-violet-400"> Javascript </strong> application features a <strong class="text-violet-400">dynamically generated fretboard </strong>,
+            leveraging music theory to display corresponding notes on the neck based on the chords being played.
+            It offers an interactive and <strong class="text-violet-400">educational tool</strong> for guitarists to enhance their understanding and execution of
+            chord structures.
+            
         </p>
     </Step>
 
     <Step step={steps[1]}>
         <p>
-            Ultimate Todos is a Full Stack <strong
-                class="text-violet-400">Next.js</strong
-            >,
-            <strong class="text-violet-400">Node.js + Express.js</strong
-            >
-            & <strong class="text-violet-400">Firebase</strong> CRUD application
-            that allows a user to login, manage a tidy and efficacious todo
-            list, and persist this information across devices.
+          Passwords Game is a <strong class="text-violet-400">React.JS</strong> application connected to a <strong class="text-violet-400">interactive firebase firestore database</strong> 
+          to allow users to add words from any device at any time and then play the game on a single phone. The game includes a timer to lock buttons after the time limit has expired and a point counter.
         </p>
     </Step>
 
     <Step step={steps[2]}>
         <p>
-                <p>Nasa API is a  <strong class="text-violet-400"> React and TailwindCSS</strong> application that provides a 
-                framework for the data extracted form the <strong class="text-violet-400"> Nasa API</strong> to be displayed clearly on 
-                on any screen size and changed daily.  
-           
+             BBQ Restaurant app, crafted with <strong class="text-violet-400">React.JS and Tailwind CSS</strong>, is a sleek, five-page showcase for small businesses.
+              It boosts credibility by displaying hours, location <strong class="text-violet-400">(with an integrated map)</strong>, product offerings, prices, descriptions, and unique images. The app features a catering 
+              request page and a job application page, both <strong class="text-violet-400">seamlessly connected to EmailJS</strong>, ensuring direct communication with the business owner.
         </p>
     </Step>
     <Step step={steps[3]}>
-        <p>  
-           The Blackjack App is a game Made from scratch using <strong class="text-violet-400">Vanilla JS, HTML & CSS </strong> with the goal of demonstration DOM manipulation and storing information in the local cache
-            <p>
+        <p>
+            Nasa API is a  <strong class="text-violet-400"> React and TailwindCSS</strong> application that provides a 
+            framework for the data extracted form the <strong class="text-violet-400"> Nasa API</strong> to be displayed clearly
+            on any screen size and to changed daily.  
+       
+    </p>
         
-        </p>
+       
     </Step>
     <Step step={steps[4]}>
-        <p>
-            This is a vanilla JavaScript application designed to address common challenges faced by novice guitarists, such as difficulty in deciding what to play and understanding the notes on the fretboard. <strong class="text-violet-400"> The application aims to assist visual learners by dynamically illustrating patterns and shapes on the fretboard,</strong> enhancing their grasp of music theory.
-        </p>
+    <p>
+        The Daily Weather app was created to pull the daily weather information 
+        from an <strong class="text-violet-400">API</strong> and displaying it dynamical using <strong class="text-violet-400">React.js</strong> and <strong class="text-violet-400">Tailwinds</strong> as well as featuring a  <strong class="text-violet-400">location lookup feature </strong>
+        which is triggered on load
+    </p>
     </Step>
-    <Step step={steps[5]}>
+     <Step step={steps[5]}>
         <p>
-            The Daily Weather app is a simple app created to pull the daily weather information 
-            from an <strong class="text-violet-400">API</strong> and displaying it dynamical using <strong class="text-violet-400">React.js</strong> and <strong class="text-violet-400">Tailwinds</strong> as well as featuring a  <strong class="text-violet-400">location lookup feature </strong>
-            which is triggered on load
+            #StayHard is a workout app using exercise routine data from one of my favorite content creators <strong
+            class="text-violet-400">James</strong>. The app was built primarily using <strong
+                class="text-violet-400"> React, SvelteKit, and TailwindCSS and is hosted on Netlify.</strong
+            > It is intended to give you an en energizing workout routine targeted specifically at the muscle groups you select.
         </p>
     </Step>
 </div>
