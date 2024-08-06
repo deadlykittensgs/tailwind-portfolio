@@ -164,7 +164,7 @@
         <p>
             #StayHard is a workout app using exercise routine data from one of my favorite content creators <strong
             class="text-violet-400">James</strong>. The app was built primarily using <strong
-                class="text-violet-400"> React, SvelteKit, and TailwindCSS and is hosted on Netlify.</strong
+                class="text-violet-400"> React and TailwindCSS and is hosted on Netlify.</strong
             > It is intended to give you an en energizing workout routine targeted specifically at the muscle groups you select.
         </p>
     </Step>
